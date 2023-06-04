@@ -1,10 +1,8 @@
 void setup(){
-  Serial.begin(115200); //pra printar no monitor serial
   pinMode(A0,OUTPUT); //relê 1
   pinMode(A1,OUTPUT); //relê 2
   pinMode(A2,OUTPUT); //relê 3
   pinMode(A3,OUTPUT); //relê 4
-  pinMode(A5,OUTPUT); //relê de velocidade
 }
 
 //parar o carrinho
